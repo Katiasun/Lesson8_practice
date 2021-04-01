@@ -72,3 +72,42 @@ button {
 button:hover {
   background: #7feead;
 }
+.social_links a {
+  display: block;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  height: 140px;
+}
+.social_links a.facebook {
+  border-color: #3b5998;
+  background: #ffffff url("../img/facebook1.png") center center no-repeat;
+}
+.social_links a.facebook:hover {
+  background-color: #3b5998;
+  background-image: url("../img/facebook2.png");
+}
+.social_links a.twitter {
+  border-color: #00aced;
+  background: #ffffff url("../img/twitter1.png") center center no-repeat;
+}
+.social_links a.twitter:hover {
+  background-color: #00aced;
+  background-image: url("../img/twitter2.png");
+}
+.social_links a.instagram {
+  border-color: #517fa4;
+  background: #ffffff url("../img/instagram1.png") center center no-repeat;
+}
+.social_links a.instagram:hover {
+  background-color: #517fa4;
+  background-image: url("../img/insta2.png");
+}
+.social_links a.dribble {
+  border-color: #ff0084;
+  background: #ffffff url("../img/dribble1.png") center center no-repeat;
+}
+.social_links a.dribble:hover {
+  background-color: #ff0084;
+  background-image: url("../img/dribble2\ \(1\).png");
+}
