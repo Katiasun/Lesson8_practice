@@ -18,27 +18,57 @@ h1 span {
   color: rgb(18, 209, 145);
 }
 p {
+  font-family: "Karla", sans-serif;
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  color: ;
+  color: #666666;
+}
+input {
+  margin-bottom: 20px;
 }
 input,
 textarea {
-  background-color: ;
-  border: ;
+  background-color: #fff;
+  border: 1px solid #bababa;
   border-radius: 5px;
   font-size: 16px;
   line-height: 30px;
+  font-family: "Asap", sans-serif;
+
   display: block;
+
   width: 100%;
   padding: 10px 15px;
   outline: 0;
+  color: #666666;
+}
+::placeholder {
+  font-style: italic;
 }
 input:focus,
 textarea:focus {
   border-color: aquamarine;
 }
-.textarea {
+textarea {
   resize: none;
+}
+.massege {
+  display: flex;
+  height: 160px;
+}
+.massege textarea {
+  flex-grow: 1;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+}
+button {
+  background: #2ec06c;
+  border-radius: 0px 5px 5px 0px;
+  border: 0;
+  padding: 0 12px;
+  cursor: pointer;
+}
+button:hover {
+  background: #7feead;
 }
